@@ -155,6 +155,9 @@
     "symfony/asset": {
         "version": "v6.0.3"
     },
+    "symfony/browser-kit": {
+        "version": "v6.0.3"
+    },
     "symfony/cache": {
         "version": "v6.0.6"
     },
@@ -199,6 +202,9 @@
     },
     "symfony/doctrine-messenger": {
         "version": "v6.0.3"
+    },
+    "symfony/dom-crawler": {
+        "version": "v6.0.6"
     },
     "symfony/dotenv": {
         "version": "v6.0.5"
