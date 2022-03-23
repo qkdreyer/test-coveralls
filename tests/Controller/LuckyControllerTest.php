@@ -8,7 +8,7 @@ class PostControllerTest extends WebTestCase
 {
     public function testSomething(): void
     {
-        $client = static::createClient([], ['SERVER_ADDR' => '127.0.0.1:8000']);
+        $client = static::createClient();
         $client->request('GET', '/lucky');
 
         $this->assertResponseIsSuccessful();
